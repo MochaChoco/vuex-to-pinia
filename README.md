@@ -1,68 +1,21 @@
-# vuex-to-pinia
+## Vuex-to-Pinia
 
-## Build Setup
+![ezgif-6-e99fa8d058](https://velog.velcdn.com/images/swj9077/post/8633b6f7-554b-46d9-923c-cc0ed01e2445/image.jpg)
 
-```bash
-# install dependencies
-$ yarn install
+이 프로젝트는 Nuxt2 기반의 프로젝트로, 사용자에게 id를 입력받아 입력받은 User 정보를 출력하는 로직을 구현했습니다. 동일한 로직을 Vuex와 Pinia로 각각 따로 구현했기에 각 라이브러리들의 특징을 비교할 수 있습니다.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## 설치 및 실행 방법
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+### dependency 설치
 
-# generate static project
-$ yarn generate
-```
+yarn install
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+### front-end 실행
 
-## Special Directories
+yarn dev
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
+## 상세 설명
 
-### `assets`
+보다 상세한 설명은 아래의 링크에서 확인하실 수 있습니다.
 
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+[Velog 바로가기](https://velog.io/@swj9077/Nuxt2%EC%97%90%EC%84%9C-Pinia-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0)
