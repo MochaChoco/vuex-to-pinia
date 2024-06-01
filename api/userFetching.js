@@ -1,11 +1,11 @@
 import axios from 'axios'
 
-const BASE_URL = 'https://test.com'
+const BASE_URL = 'http://localhost:3000'
 
 export const fetchUserById = (userId) => {
-  return axios.get(`${BASE_URL}/users/${userId}`)
+  return axios.get(`${BASE_URL}/api/users/${userId}`)
 }
 
 export const fetchUserDetailById = (userId) => {
-  return axios.get(`${BASE_URL}/detail?userId=${userId}`)
+  return axios.get(`${BASE_URL}/api/users/detail?userId=${userId}`)
 }
